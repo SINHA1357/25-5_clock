@@ -1,0 +1,49 @@
+.clock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 550px;
+    height: 99vh;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 24px;
+    border: 5px solid whitesmoke;
+}
+
+.setters {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+span {
+    font-size: 24px;
+}
+
+.display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px rgb(1, 255, 128);
+}
+
+h4 {
+    font-size: 24px;
+    margin-top: 20px;
+}
